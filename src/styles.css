@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    min-width: 300px;
+    background: rgb(41, 40, 40);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 40px;
+    z-index: 100000;
+    
+}
+
+.headerScroll{
+    padding: 25px 45px;
+    background-color: #000000;
+
+}
+
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header nav ul li{
+    position: relative;
+    list-style: none;
+}
+
+header nav ul li a{
+    position: relative;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+
+    header nav ul li a:after{
+        position: absolute;
+        bottom: 7px;
+        left: -2px;
+        width: 100%;
+        height: 3px;
+        background-color: #7410f790;
+        content: "";
+        opacity: 0;
+        transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+        transform: translateY(20px);        
+    }
+    header nav ul li a:hover:after{
+        opacity:1;
+        transform: translateY(15px)
+    }
+
+
+.banner{
+    position: relative;
+    width: 100%;
+    background-color: #F5F5F5;
+    position: relative ;
+    width: 100%;
+    height: 100vh;
+    background: url(./Componentes/imagenes/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.flechaDown{
+    font-size: 100px;
+}
+
+.content{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0, 22, 40, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 0px 3px 4px rgb(41 40 40);
+    position: absolute;
+    opacity: auto;
+}
+
+
+.banner .content h2{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.banner .content h3{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px;
+} 
+
+.banner2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(41, 40, 40);
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    }
+
+.banner2 .content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+}
+
+.banner2 .content2 h2 {
+    color: rgb(250, 250, 250);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.banner2 .content2 h3{
+    color: rgb(250, 250, 250);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.banner2 .content2 p{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.botonCv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #541a9c;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.499);
+    padding: 10px;
+    transition: 0.4s;
+    text-decoration: none;
+    
+}
+
+.botonCv:hover{
+    background-color: #ef450a;
+    color: #000000;
+}
+
+.banner3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -80px;
+    padding: 20px;
+}
+
+
+.banner3 .content3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.banner3 .content3 img, h3{
+    margin-top: 40px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.banner3 .content3 p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.banner3 img{
+    width: 80px;
+    height: 80px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.container .herramientasCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.iconHtml{
+    padding: 20px;
+    font-size: 50px;
+    color: #ef450a;
+}
+.iconCss{
+    padding: 20px;
+    font-size: 50px;
+    color: #32a0ce;
+}
+.iconJs{
+    padding: 20px;
+    font-size: 50px;
+    color: #f0d020;
+}
+.iconReact{
+    padding: 20px;
+    font-size: 50px;
+    color: #5ccfee;
+}
+.iconCode{
+    padding: 20px;
+    font-size: 50px;
+    color: #7410f790;
+}
+.iconGit{
+    padding: 20px;
+    font-size: 50px;
+    color: #010101;
+}
+
+.iconInsta{
+    padding: 20px;
+    font-size: 50px;
+    color: #010101;
+}
+
+.iconFace{
+    padding: 20px;
+    font-size: 50px;
+    color: #010101;
+}
+
+.herramientas{
+    transition: 0.4s;
+}
+
+.herramientas:hover{
+    transform: translateY(-10px);
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    background-color: #7410f790;
+    color: #fff;
+    font-size: 20px;
+    height: 100%;
+}
+
+.footerContent{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.modelo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    font-size: 10px;
+}
+
+.botonContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.499);
+    padding: 10px;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.botonContact:hover{
+    background-color: #ef450a;
+    color: #000000;
+    transform: translateY(-10px);
+}
+
+.card{
+    position: relative;
+    height: 340px;
+    width: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.card img{
+    height: 340px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.cardContent{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.895);;
+    transform: translateY(350px);
+    transition: transform .25s;
+    text-align: center;
+    height: 340px;
+    
+}
+.proyeContent h3 , .proyeContent p{
+    color: #fff;
+    font-size: 30px;
+}
+
+.cardContent p, .cardContent h3,.cardContent a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 50px;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.4s;
+}
+
+.cardContent a:hover{
+    font-size: 33px;
+}
+
+.card:hover .cardContent{
+    transform: translateY(0px);
+}
+
+.proyectos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 90%;
+    padding: 0px;
+}
+
+.containerForm{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 190px;
+    margin-bottom: 60px;
+    
+}
+
+
+
+.containerForm .contactForm{
+    padding: 70px 50px;
+    width: 60%;
+    height: 100%;
+    border-radius: 3%;
+    background: rgb(255, 255, 255);
+}
+
+
+
+.containerForm .contactForm h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.containerForm .contactForm .formBox{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.containerForm .contactForm .formBox .inputBox{
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.containerForm .contactForm .formBox #w50{
+    width: 47%;
+}
+
+.containerForm .contactForm .formBox #w100{
+    width: 100%;
+}
+
+.containerForm .contactForm .formBox .inputBox input,
+.containerForm .contactForm .formBox .inputBox textarea{
+    width: 100%;
+    resize: none;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    color: rgb(255, 255, 255);
+    outline: none;
+    border-bottom: 1px solid #777;
+}
+
+.containerForm .contactForm .formBox .inputBox textarea{
+    height: 120px;
+}
+.containerForm .contactForm .formBox .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.containerForm .contactForm .formBox .inputBox input:focus ~ span,
+.containerForm .contactForm .formBox .inputBox input:valid ~ span,
+.containerForm .contactForm .formBox .inputBox textarea:focus ~ span,
+.containerForm .contactForm .formBox .inputBox textarea:valid ~ span{
+    transform: translateY(-25px);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+
+.containerForm .contactForm .formBox .inputBox input[ type="submit"]{ 
+    position: relative;
+    cursor: pointer;
+    background: #541a9c;
+    color: #fff;
+    max-width: 150px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s;
+    }
+
+    .containerForm .contactForm .formBox .inputBox input[ type="submit"]:hover{
+        background: #ef450a;
+        color: #000000;
+        transform: translateY(-10px);
+    }
+
+
+@media screen and (max-width: 721px){
+    header nav{
+        flex-direction: column;
+    }
+    .proyectPic img{
+        height: 300px;
+        width: 350px;
+        margin: 10px;
+    }
+}
+
+  @media screen and (max-width: 730px){
+
+    header {
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav{
+        margin-left: -120px;
+    }
+
+    header nav ul{
+        flex-direction: column;
+
+    }
+}  
+
+
+@media screen and (max-width: 600px){
+
+
+    .banner .content h2, .banner2 .content2 h2 {
+        font-size: 24px;
+
+    }
+
+    .banner .content h3, .banner2 .content2 h3{
+        font-size: 18px;
+
+    }
+    .proyectPic img{
+
+        margin: 0px;
+    }
+
+    .containerForm .contactForm .formBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerForm .contactForm .formBox #w50{
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width: 468px){
+    .cardContent p, .cardContent h3,.cardContent a {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .cardContent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cardContent p, .cardContent h3,.cardContent a {
+        margin-top: 0px;
+    }
+
+    .banner3{
+        margin-top: -20px;
+    }
+
+}
+
+
+@media screen and (max-width: 370px){
+    .banner .content h2, .banner2 .content2 h2 {
+        font-size: 20px;
+        padding: 6px;
+    }
+
+    .banner .content h3, .banner2 .content2 h3{
+        font-size: 15px;
+        padding: 6px;
+    }
+    .proyectPic img{
+        height: 270px;
+        width: 300px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    header nav{
+        flex-direction: column;
+    }
+
+    .proyectPic img{
+        height: 220px;
+        width: 250px;
+        margin: 5px;
+    }
+
+    .banner3{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 316px){
+    .banner3{
+        margin-top: 70px;
+    }
+}
+
