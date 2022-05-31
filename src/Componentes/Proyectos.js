@@ -25,7 +25,7 @@ const Proyectos = () => {
                     <h3>Muller Photo</h3>
                     <p>Pagina web estilo galeria para la empresa de fotografía Muller Photo.</p>
                     <a href="https://mullerphoto.netlify.app/">Ver pagina</a>
-                    <a href="">Ver GitHub</a>
+                    <a href="https://github.com/sebavazque/Pagina-Fotografia">Ver GitHub</a>
                 </div>
             </div>
             </Bounce>
@@ -37,7 +37,7 @@ const Proyectos = () => {
                     <h3>Autocar</h3>
                     <p>Pagina web para la empresa de servicios de mantenimiento y reparación de vehículos Autocar.</p>
                     <a href="https://autocarcustoms.netlify.app/">Ver pagina</a>
-                    <a href="">Ver GitHub</a>
+                    <a href="https://github.com/sebavazque/Pagina-Autocar">Ver GitHub</a>
                 </div>
             </div>
             </Bounce>
@@ -49,7 +49,7 @@ const Proyectos = () => {
                     <h3>Oahu Store</h3>
                     <p>Ecommerce para la tienda de ropa Oahu Store.</p>
                     <a href="https://sebavazquezecommerce.netlify.app/">Ver pagina</a>
-                    <a href="">Ver GitHub</a>
+                    <a href="https://github.com/sebavazque/Sebastian-Vazquez--React-Js--25470">Ver GitHub</a>
                 </div>
             </div>
             </Bounce>
