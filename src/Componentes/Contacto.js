@@ -8,13 +8,7 @@ const Contacto = () => {
     return (
         <div className='containerForm'>
             <div className='contactForm'>
-            <form 
-              name="contact"
-              action="/pages/success"
-              method="POST" 
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
-            >
+            <form  name="contact" netlify  >
             <h2>Contactame</h2>
         
             <div className='formBox'>
