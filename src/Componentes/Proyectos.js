@@ -11,9 +11,9 @@ const Proyectos = () => {
     <div class="proyectos">
             
         <div class="proyeContent">
-            <Bounce top>
+            
                 <h3>Estos son algunos de mis proyectos </h3>
-            </Bounce>
+            
         </div>
 
         <div class="cardContainer">
