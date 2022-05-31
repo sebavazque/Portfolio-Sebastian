@@ -1,5 +1,5 @@
 import React from 'react'
-import Bounce from 'react-reveal/Bounce';
+
 import Captura from './imagenes/Captura.JPG'
 import Captura2 from './imagenes/Captura2.JPG'
 import pagina from './imagenes/pagina.PNG'
@@ -18,7 +18,7 @@ const Proyectos = () => {
 
         <div class="cardContainer">
 
-            <Bounce right>
+            
             <div className='card'>
                 <img src={Captura} alt=""/>
                 <div className='cardContent'>
@@ -28,9 +28,9 @@ const Proyectos = () => {
                     <a href="https://github.com/sebavazque/Pagina-Fotografia">Ver GitHub</a>
                 </div>
             </div>
-            </Bounce>
+            
 
-            <Bounce unce left>
+            
             <div className='card'>
                 <img src={Captura2} alt=""/>
                 <div className='cardContent'>
@@ -40,9 +40,9 @@ const Proyectos = () => {
                     <a href="https://github.com/sebavazque/Pagina-Autocar">Ver GitHub</a>
                 </div>
             </div>
-            </Bounce>
+            
 
-            <Bounce right>
+            
             <div className='card'>
             <img src={pagina} alt=""/>
                 <div className='cardContent'>
@@ -52,7 +52,7 @@ const Proyectos = () => {
                     <a href="https://github.com/sebavazque/Sebastian-Vazquez--React-Js--25470">Ver GitHub</a>
                 </div>
             </div>
-            </Bounce>
+            
         </div>
 
     </div>

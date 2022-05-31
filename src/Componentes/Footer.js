@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {  BsGithub, BsInstagram, BsFacebook} from "react-icons/bs";
-import Bounce from 'react-reveal/Bounce';
+
 
 const Footer = () => {
     return (
-        <Bounce bottom>
+        
             <footer>      
                 <div class="footer">            
                     <div class="footerContent">
@@ -17,7 +17,7 @@ const Footer = () => {
                     <a href=""><BsFacebook className='iconFace'/> </a>
                 </div>
             </footer>
-        </Bounce>
+        
     )
 }
 
