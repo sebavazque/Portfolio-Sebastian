@@ -5,7 +5,7 @@ import { DiCss3,DiReact } from "react-icons/di";
 import { FaFileCode } from "react-icons/fa";
 import Proyectos from './Proyectos';
 import cv from './CV.pdf'
-import { Bounce } from 'react-reveal';
+
 
 const All = () => {
     return (
@@ -22,7 +22,7 @@ const All = () => {
 
             <div className="banner2">
                 <div className="content2">
-                    <Bounce top>
+                    
                         <h2>Soy Desarrollador Front End</h2>
                         <p>
                             Empece a estudiar programación hace 2 años, 
@@ -32,14 +32,14 @@ const All = () => {
                         </p>
                         <h3>Te dejo mi curriculum acá abajo!</h3>
                         <a  href={cv} className="botonCv"> Descargar </a>
-                   </Bounce>
+                  
                 </div>
             </div>
             </div>
 
             <div className="banner3"> 
                     <div className="content3">
-                        <Bounce bottom>
+                        
                             <FaFileCode className='iconCode'/>
                             <h3>Herramientas de desarrollo</h3>
                             <p>Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador.</p>
@@ -74,7 +74,7 @@ const All = () => {
                             </div>
                        
                         </div>
-                        </Bounce>
+                        
 
                     </div>
             </div>
