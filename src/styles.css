@@ -82,6 +82,7 @@ header nav ul li a{
     background: url(./Componentes/imagenes/banner.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
 }

@@ -8,7 +8,7 @@ const Contacto = () => {
     return (
         <div className='containerForm'>
             <div className='contactForm'>
-            <form netlify >
+            <form name="contact" netlify>
             <h2>Contactame</h2>
         
             <div className='formBox'>
