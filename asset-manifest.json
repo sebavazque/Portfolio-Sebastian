@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sebavazque/Portfolio-Sebastian/static/css/main.a04a6475.css",
+    "main.js": "/sebavazque/Portfolio-Sebastian/static/js/main.e0fde3bf.js",
+    "static/media/pagina.PNG": "/sebavazque/Portfolio-Sebastian/static/media/pagina.963ebb18539f0c785bef.PNG",
+    "static/media/CV.pdf": "/sebavazque/Portfolio-Sebastian/static/media/CV.06ba90ec53bb4f5feda4.pdf",
+    "static/media/banner.jpg": "/sebavazque/Portfolio-Sebastian/static/media/banner.284cf649a92a00ff443a.jpg",
+    "static/media/Captura2.JPG": "/sebavazque/Portfolio-Sebastian/static/media/Captura2.9279a452fd6e7f3863e1.JPG",
+    "static/media/Captura.JPG": "/sebavazque/Portfolio-Sebastian/static/media/Captura.31035896792673a8d9f6.JPG",
+    "index.html": "/sebavazque/Portfolio-Sebastian/index.html",
+    "main.a04a6475.css.map": "/sebavazque/Portfolio-Sebastian/static/css/main.a04a6475.css.map",
+    "main.e0fde3bf.js.map": "/sebavazque/Portfolio-Sebastian/static/js/main.e0fde3bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a04a6475.css",
+    "static/js/main.e0fde3bf.js"
+  ]
+}
