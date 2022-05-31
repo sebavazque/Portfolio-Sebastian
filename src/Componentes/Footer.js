@@ -12,9 +12,8 @@ const Footer = () => {
                         <h3>Te interesa lo que hago? </h3>
                         <Link to="/contacto" className='botonContact'>Contactame!</Link>
                     </div>
-                    <a href=""><BsGithub className='iconGit'/></a>
-                    <a href=""><BsInstagram className='iconInsta'/></a>
-                    <a href=""><BsFacebook className='iconFace'/> </a>
+                    <a href="https://github.com/sebavazque"><BsGithub className='iconGit'/></a>
+                    <a href="https://www.instagram.com/sebavazquez00/"><BsInstagram className='iconInsta'/></a>
                 </div>
             </footer>
         
