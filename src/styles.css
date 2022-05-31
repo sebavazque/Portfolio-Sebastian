@@ -532,11 +532,16 @@ footer{
         transform: translateY(-10px);
     }
 
+    @media screen and (max-width: 962px){
+        .banner{
+                background-size: cover;
+        }
+    }
+
+
 
 @media screen and (max-width: 721px){
-    header nav{
-        flex-direction: column;
-    }
+
 
     .headerScroll{
         padding: 0px 40px;
@@ -563,19 +568,21 @@ footer{
     header nav{
         margin-left: -120px;
     }
-
-    header nav ul{
-        flex-direction: column;
-
+  
+    header nav ul li a{
+        font-size: 18px;
     }
+
 }  
 
 
 @media screen and (max-width: 600px){
 
-    header nav ul li a{
-        font-size: 18px;
-    }
+    .banner{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
 
     .banner .content h2, .banner2 .content2 h2 {
         font-size: 24px;
