@@ -20,7 +20,7 @@ const Header = () => {
             <header className={menu ? 'headerScroll' : 'header' } >
                 <nav>              
                     <ul>
-                        <li><Link to="/inicio">Inicio</Link></li>
+                        <li><Link to="/">Inicio</Link></li>
                         <li><Link to="/contacto">Contacto</Link></li>
                         <li><Link to="/proyectos">Proyectos</Link></li>
                     </ul>
