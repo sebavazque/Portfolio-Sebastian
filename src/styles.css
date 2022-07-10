@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;400&display=swap');
 
 body{
     margin: 0;
@@ -6,7 +6,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     min-width: 300px;
-    background: rgb(41, 40, 40);
+    background: #fff;
 }
 
 header{
@@ -80,13 +80,20 @@ header nav ul li a{
 .banner{
     position: relative;
     width: 100%;
-    background-color: #F5F5F5;
+    background-color: #ffffff;
     position: relative ;
     width: 100%;
     height: 100vh;
     background: url(./Componentes/imagenes/banner2.jpg);
     background-size: cover;
     margin: 0;
+}
+
+.banner .content img{
+    width: 240px;
+    height: 230px;
+    border-radius: 100%;
+    background-position: center;
 }
 
 .flechaDown{
@@ -99,7 +106,7 @@ header nav ul li a{
     width: 100%;
     height: 100%;
     color: #fff;
-    background-color: rgba(0, 22, 40, .6);
+    background-color: rgba(0, 0, 0, 0.85);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,26 +120,26 @@ header nav ul li a{
 
 .banner .content h2{
     color: rgb(255, 255, 255);
-    font-weight: 800;
+    font-weight: 400;
     font-size: 35px;
-    padding: 10px;
+    padding: 5px;
 }
 
-.banner .content h3{
-    color: rgb(255, 255, 255);
+.banner .content h1{
+    color: #2f59c5;
     font-weight: 600;
-    font-size: 25px;
-    padding: 10px;
+    font-size: 50px;
+    padding: 0px;
 } 
 
 .banner2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(41, 40, 40);
+    background: rgb(255, 255, 255);
     height: 500px;
-    width: 100%;
     margin-top: 10px;
+    width: 50%;
     }
 
 .banner2 .content2{
@@ -140,31 +147,39 @@ header nav ul li a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 700px;
+    width: 80%;
     text-align: center;
     padding: 0px;
     margin: auto;
 }
 
 .banner2 .content2 h2 {
-    color: rgb(250, 250, 250);
-    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
     font-size: 30px;
 }
 
 .banner2 .content2 h3{
-    color: rgb(250, 250, 250);
-    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
     font-size: 30px;
 }
 
 .banner2 .content2 p{
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 18px;
     margin: auto;
     padding: 10px 25px;
     letter-spacing: 2px;
+}
+
+.about{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
 }
 
 .botonCv{
@@ -181,7 +196,7 @@ header nav ul li a{
     padding: 10px;
     transition: 0.4s;
     text-decoration: none;
-    
+    margin-top: 25px;
 }
 
 .botonCv:hover{
@@ -197,6 +212,7 @@ header nav ul li a{
     text-align: center;
     margin-top: -80px;
     padding: 20px;
+    width: 50%;
 }
 
 
@@ -213,10 +229,10 @@ header nav ul li a{
     margin-top: 100px;
 }
 
-.banner3 .content3 img, h3{
-    margin-top: 40px;
-    font-size: 25px;
+.banner3 .content3 img, .banner3 .content3 h3, .proyectos .proyeContent h3, .serviceContainer h3{
+    font-size: 30px;
     color: rgb(0, 0, 0);
+    font-weight: 400;
 }
 
 .banner3 .content3 p{
@@ -250,44 +266,44 @@ header nav ul li a{
 
 .iconHtml{
     padding: 20px;
-    font-size: 50px;
+    font-size: 60px;
     color: #ef450a;
 }
 .iconCss{
     padding: 20px;
-    font-size: 50px;
+    font-size: 60px;
     color: #32a0ce;
 }
 .iconJs{
     padding: 20px;
-    font-size: 50px;
+    font-size: 60px;
     color: #f0d020;
 }
 .iconReact{
     padding: 20px;
-    font-size: 50px;
+    font-size: 60px;
     color: #5ccfee;
 }
 .iconCode{
     padding: 20px;
-    font-size: 50px;
+    font-size: 60px;
     color: #7410f790;
 }
 .iconGit{
     padding: 20px;
-    font-size: 50px;
+    font-size: 60px;
     color: #010101;
 }
 
 .iconInsta{
     padding: 20px;
-    font-size: 50px;
+    font-size: 60px;
     color: #010101;
 }
 
 .iconFace{
     padding: 20px;
-    font-size: 50px;
+    font-size: 60px;
     color: #010101;
 }
 
@@ -307,10 +323,9 @@ footer{
     flex-direction: column;
     text-align: center;
     width: 100%;
-    margin: 0;
+    margin-top: 100px;
     padding: 0px;
-    background-color: #7410f790;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     height: 100%;
 }
@@ -357,8 +372,8 @@ footer{
 
 .card{
     position: relative;
-    height: 340px;
-    width: 550px;
+    height: 200px;
+    width: 420px;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -368,8 +383,8 @@ footer{
 }
 
 .card img{
-    height: 340px;
-    width: 550px;
+    height: 200px;
+    width: 420px;
     border-radius: 10px;
 }
 
@@ -382,18 +397,22 @@ footer{
     transform: translateY(350px);
     transition: transform .25s;
     text-align: center;
-    height: 340px;
+    height: 200px;
     
 }
-.proyeContent h3 , .proyeContent p{
-    color: #fff;
+.proyeContent h3 {
+    color: rgb(0, 0, 0);
     font-size: 30px;
+}
+.proyeContent p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 .cardContent p, .cardContent h3,.cardContent a {
     color: rgb(255, 255, 255);
-    font-size: 25px;
-    margin-top: 50px;
+    font-size: 18px;
+    margin-top: 20px;
     text-decoration: none;
     padding: 5px;
     transition: 0.4s;
@@ -530,11 +549,40 @@ footer{
     transition: 0.4s;
     }
 
-    .containerForm .contactForm .formBox .inputBox input[ type="submit"]:hover{
-        background: #ef450a;
-        color: #000000;
-        transform: translateY(-10px);
-    }
+.containerForm .contactForm .formBox .inputBox input[ type="submit"]:hover{
+    background: #ef450a;
+    color: #000000;
+    transform: translateY(-10px);
+}
+
+.serviceContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+}
+
+.serviceContent{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.service{
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
 
     @media screen and (max-width: 962px){
         .banner{
@@ -579,6 +627,28 @@ footer{
 
 }  
 
+@media screen and (max-width: 670px){
+    .about{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner2{
+        width: 100%;
+    }
+
+    .banner2 .content2{
+        width: 100%;
+    }
+
+    .banner3{
+        width: 100%;
+    }
+    .banner3 .content3{
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 600px){
 
@@ -617,6 +687,20 @@ footer{
         font-size: 20px;
     }
     
+}
+
+@media screen and (max-width: 555px){
+    .serviceContent{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service{
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 
 

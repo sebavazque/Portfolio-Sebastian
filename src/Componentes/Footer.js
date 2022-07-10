@@ -9,11 +9,13 @@ const Footer = () => {
             <footer>      
                 <div class="footer">            
                     <div class="footerContent">
-                        <h3>Te interesa lo que hago? </h3>
+                        <h3>Contacto</h3>
+                        <p>Contáctame si quieres que trabajemos juntos.</p>
                         <Link to="/contacto" className='botonContact'>Contactame!</Link>
                     </div>
                     <a href="https://github.com/sebavazque"><BsGithub className='iconGit'/></a>
                     <a href="https://www.instagram.com/sebavazquez00/"><BsInstagram className='iconInsta'/></a>
+                    <p>Copyright © 2022. All Rights Reserved</p>
                 </div>
             </footer>
         
